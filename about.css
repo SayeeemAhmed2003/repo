@@ -1,0 +1,134 @@
+* {
+  margin: 0 auto;
+  max-width: 1920px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  background-color: rgba(16, 31, 29, 0.808);
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* padding-bottom: 30px; */
+}
+
+nav li {
+  list-style: none;
+  font-size: 16px;
+  color: aliceblue;
+  font-weight: 800;
+  border: 1px solid rgb(255, 254, 254);
+  border-radius: 6px;
+  padding: 2px;
+  font-weight: 800;
+  border-width: 2px;
+  border-style: groove;
+  padding: 5px 15px;
+}
+
+nav li:hover {
+  background-color: #8000ff;
+  transition: 1s;
+  padding: 5px 15px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav img {
+  width: 7%;
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about-us {
+  width: 1000px;
+}
+
+.about-info {
+  text-align: center;
+}
+.about-info p {
+  padding-top: 10px;
+}
+
+.about-info h1 {
+  font-size: 35px;
+}
+.about-us div {
+  margin-top: 60px;
+}
+
+.creator-container {
+  display: flex;
+  align-items: center;
+}
+
+.creator-info-container {
+  padding-left: 70px;
+  padding-top: 80px;
+}
+
+.creator-info-container p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.creator-info-container h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.developer-container {
+  display: flex;
+  align-items: center;
+}
+
+.developer-info-container {
+  padding-right: 50px;
+  padding-top: 80px;
+}
+
+.developer-info-container p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+.developer-info-container h1 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.developer-container img {
+  width: 350px;
+}
+footer {
+  margin-top: 100px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+footer p {
+  font-size: 20px;
+  /* padding-top: 100px; */
+}
+footer i {
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+footer p {
+  padding-top: 10px;
+}

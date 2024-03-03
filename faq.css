@@ -1,0 +1,103 @@
+* {
+  margin: 0 auto;
+  max-width: 1920px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 16px;
+  color: aliceblue;
+  font-weight: 800;
+  border: 1px solid rgb(255, 254, 254);
+  border-radius: 6px;
+  padding: 2px;
+  font-weight: 800;
+  border-width: 2px;
+  border-style: groove;
+  padding: 5px 15px;
+}
+
+nav li:hover {
+  background-color: #8000ff;
+  transition: 1s;
+  padding: 5px 15px;
+}
+nav li a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+nav img {
+  width: 7%;
+  padding-right: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* faq-section */
+
+.faq-section {
+  width: 900px;
+}
+
+.faq {
+  background-color: rgba(0, 0, 0, 0.712);
+  color: aliceblue;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+hr {
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  list-style: none;
+  font-weight: 900;
+}
+
+div {
+  margin-left: 250px;
+  margin-top: 50px;
+}
+
+/* footer style */
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer p {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+i {
+  padding-right: 20px;
+  font-size: 20px;
+}
