@@ -1,5 +1,6 @@
 * {
   margin: 0 auto;
+  max-width: 1920px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -8,7 +9,7 @@
 /* header style */
 
 header {
-  background-image: url(assect/website\ banner.png);
+  background-image: url(assect/ppp.png);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 0; /* Added padding for spacing */
@@ -26,7 +27,7 @@ nav ul {
   display: flex;
   align-items: center;
   gap: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 90px;
 }
 
 nav li {
@@ -54,9 +55,9 @@ nav li a {
 }
 
 nav img {
-  width: 7%;
+  width: 10%;
   padding-right: 50%;
-  padding-top: 10px;
+  padding-bottom: 100px;
 }
 
 /* header banner */
@@ -71,15 +72,16 @@ nav img {
 }
 
 .banner-container img {
-  width: 50%;
-  padding-right: 15px;
+  width: 30%;
+  padding-right: 40px;
+  padding-top: 50px;
 }
 
 .banner-info-container {
   padding-top: 6%;
   padding-right: 100px;
-  padding-left: 100px;
-  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-bottom: 60px;
 }
 
 .banner-info {
@@ -89,8 +91,8 @@ nav img {
 
 .banner-second-info {
   font-size: 40px;
-  padding-top: 3px;
-  padding-bottom: 20px;
+  padding-top: 2px;
+  padding-bottom: 25px;
   color: aliceblue;
 }
 .banner-title {
@@ -109,7 +111,7 @@ nav img {
   font-weight: 900;
   padding: 15px 15px;
   font-weight: 900;
-  background-color: rgba(5, 253, 228, 0.979);
+  background-color: rgb(255, 255, 255);
   border: 0;
   border-radius: 5px;
 }
