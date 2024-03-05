@@ -250,14 +250,14 @@ nav img {
 }
 
 .features1-sub-container {
-  background-image: url(assect/features1.png);
+  background-image: url(assect/features1.webp);
   background-repeat: no-repeat;
   background-size: 100%;
   height: 640px;
 }
 
 .features2-container {
-  background-image: url(assect/features3.jpg);
+  background-image: url(assect/features3.webp);
   margin-top: 5px;
   color: aliceblue;
   display: flex;
