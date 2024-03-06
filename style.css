@@ -300,15 +300,10 @@ nav img {
   font-size: 25px;
 }
 
-.animation {
-  width: 100%;
+.features3-container {
+  background-image: url(assect/yyy.webp);
+  display: flex;
 }
-
-.features3 {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
 /* footer section */
 
 footer {
