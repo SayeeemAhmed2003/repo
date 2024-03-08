@@ -301,8 +301,9 @@ nav img {
 }
 
 .features3-container {
-  background-image: url(assect/yyy.webp);
+  background-image: url(assect/qqq.webp);
   display: flex;
+  margin-top: 20px;
 }
 /* footer section */
 
