@@ -1,1 +1,1 @@
-alert("website under development");
+alert("Website Under Development");
