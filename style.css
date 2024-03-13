@@ -8,7 +8,7 @@
 /* header style */
 
 header {
-  background-image: url(assect/ppp.webp);
+  background-image: url(assect/header\ banner.webp);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px 0; /* Added padding for spacing */
@@ -108,9 +108,9 @@ nav img {
 .header-btn {
   font-size: 30px;
   font-weight: 900;
-  padding: 15px 15px;
+  padding: 20px;
   font-weight: 900;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 255, 225);
   border: 0;
   border-radius: 5px;
 }
